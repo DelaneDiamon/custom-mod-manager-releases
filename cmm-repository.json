@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "kind": "cmm-repository",
+  "catalog": {
+    "path": "v5/repository-catalog.json",
+    "schemaVersion": 5,
+    "sha256": "31fb23ff6546a505442974041f53376ff6a131ac594875c758219e325f155fe2"
+  }
+}

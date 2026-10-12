@@ -1,0 +1,886 @@
+{
+  "schemaVersion": 5,
+  "packages": [
+    {
+      "packageId": "artian-qol",
+      "name": "Artian QoL",
+      "author": "maydie13",
+      "summary": "Choose stat and skill rerolls for Artian and Gogma weapons.",
+      "category": {
+        "id": "equipment",
+        "label": "Equipment"
+      },
+      "tags": [
+        {
+          "id": "weapons",
+          "label": "Weapons"
+        },
+        {
+          "id": "quality-of-life",
+          "label": "Quality of Life"
+        },
+        {
+          "id": "rerolls",
+          "label": "Rerolls"
+        }
+      ]
+    },
+    {
+      "packageId": "decoration-qol",
+      "name": "Decoration QoL",
+      "author": "maydie13",
+      "summary": "Six direct decoration melding lists with editable prices and better orb odds.",
+      "category": {
+        "id": "rewards",
+        "label": "Rewards"
+      },
+      "tags": [
+        {
+          "id": "decorations",
+          "label": "Decorations"
+        },
+        {
+          "id": "melding",
+          "label": "Melding"
+        },
+        {
+          "id": "quality-of-life",
+          "label": "Quality of Life"
+        }
+      ]
+    },
+    {
+      "packageId": "rng-charm-crafting",
+      "name": "RNG Charm Crafting",
+      "author": "maydie13",
+      "summary": "Craft the talisman you want from Gold and Battle-tempered melding tickets.",
+      "category": {
+        "id": "rewards",
+        "label": "Rewards"
+      },
+      "tags": [
+        {
+          "id": "talismans",
+          "label": "Talismans"
+        },
+        {
+          "id": "crafting",
+          "label": "Crafting"
+        },
+        {
+          "id": "quality-of-life",
+          "label": "Quality of Life"
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "packageId": "artian-qol",
+      "name": "Artian QoL",
+      "version": "2.3.2",
+      "upstreamVersion": "2.3.2",
+      "channel": "stable",
+      "artifact": {
+        "fileName": "ArtianQoL-1.42.0.2-2.3.2.zip",
+        "size": 261267,
+        "sha256": "84ece9685e02f4c667f71e7915e69c86547e83b9d3ee384d225e4ac2783690ef",
+        "members": [
+          {
+            "path": "modinfo.ini",
+            "size": 200,
+            "sha256": "97f6f6c921b67c295d17a56fff78b12f98b6ae4139f777cf602cff03072b2281"
+          },
+          {
+            "path": "ArtianQoL_README.md",
+            "size": 12908,
+            "sha256": "eb238135529a66206da1a263027bff7ff261c5e00f660e0e881359ab28da029c"
+          },
+          {
+            "path": "reframework/autorun/ArtianQoL.lua",
+            "size": 106578,
+            "sha256": "88f3f2d5a44ddeb4b019989a6e5676e6a4be41086b9c162ff831178966226290"
+          },
+          {
+            "path": "reframework/plugins/ArtianQoL.dll",
+            "size": 514048,
+            "sha256": "e6e50c4ff14121386e851551fcdbc4017fbe41fe05aa04cb8a4b1bdd87076d79"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/en.json",
+            "size": 1955,
+            "sha256": "b23e01b4a3018999b4ab04655c73c5a4124bb57bbba91b8432a0abe41e2fb832"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/ru.json",
+            "size": 3142,
+            "sha256": "1a8894ba959010d5c98cc1bbfda57fd3bfc6370ca7720005b697d09543cd355e"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/zh-CN.json",
+            "size": 1932,
+            "sha256": "beca5a5b5ff26b2764afbe4baa3bb40192e5ebf332bfaeb37ee2267233d509fa"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/zh-TW.json",
+            "size": 1980,
+            "sha256": "682ef94f664e0a1b3916f3dcd41bf517592658aeacdd6a02e7020147703307d7"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/ja.json",
+            "size": 2602,
+            "sha256": "9d86e2cd1ef01774b72de82b57fcbac154ee84197b89ad9083114de419ff125f"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/ko.json",
+            "size": 2423,
+            "sha256": "b9fcd582b2a5afdd69fd28932d956f0cf7b79e75a905abe761f771a1497fd130"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/fr.json",
+            "size": 2310,
+            "sha256": "f8f4d1de83a14c659f76912dd39d60a476b8c02ebf886d73bf8dd809d4e307f4"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/es.json",
+            "size": 2280,
+            "sha256": "7c8cc8f71c800dfadcc1c57bae60afa139e7767a12e0be60e8b119203e02372a"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/de.json",
+            "size": 2357,
+            "sha256": "13fc6c2fc937f4e286a448bccd972ec03fa587cc7a41e6ffbc69e07c9567a5d6"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/pt-BR.json",
+            "size": 2302,
+            "sha256": "00e2f7083749283da5e3e700e60f3994b2f88588e38f404793af790f69310210"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/es-LA.json",
+            "size": 2278,
+            "sha256": "1329b13f51dd35cc87c83db175670be462a2b5adca7219d2aac7d41da57ec17a"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/th.json",
+            "size": 3844,
+            "sha256": "28b72c4b60f7bd5aea7e10954ec53c81f6bbd362d9307ed1a7d95d6103cd2e53"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/it.json",
+            "size": 2270,
+            "sha256": "05dbcdeb70f045662e09ecbed99785cf653797211ba8c1f11364349662a58e1c"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/pl.json",
+            "size": 2300,
+            "sha256": "4d3fc3bf716625dcc425bbd31077bf32edef9b0c0ab173e000143927fcf63bb3"
+          },
+          {
+            "path": "reframework/data/ArtianQoL/localization/tr.json",
+            "size": 2280,
+            "sha256": "c0082494490c12604c8215bc97560e2b370f6c0e389247ce72c6d29dae6f0785"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "provider": "https",
+          "locator": {
+            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/artian-qol-v2.3.2/ArtianQoL-1.42.0.2-2.3.2.zip"
+          }
+        },
+        {
+          "provider": "nexus-v1",
+          "gameDomain": "monsterhunterwilds",
+          "modId": 4855,
+          "locator": {
+            "kind": "artifact-file-name"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "packageId": "reframework",
+          "versionConstraint": "=1.5.9-1+nightly.1398.88ece6b",
+          "channel": "stable"
+        }
+      ],
+      "suggestedPackageIds": [],
+      "compatibility": {
+        "gameBuild": "1.42.0.2",
+        "steamBuild": "24705561",
+        "executableSha256": "aa38eb46ae1f3c6c94fb2dd94af59b4665bd4c8ccee56bc36b88cf82397a5b4a",
+        "evidence": "Producer acceptance 2.3.2 (UI panel and menu QA, 2026-09-24); runtime mechanics, prices, DLL and catalogs inherited from accepted 2.3.0 RU/IT QA."
+      },
+      "files": [
+        {
+          "path": "reframework/autorun/ArtianQoL.lua",
+          "size": 106578,
+          "sha256": "88f3f2d5a44ddeb4b019989a6e5676e6a4be41086b9c162ff831178966226290"
+        },
+        {
+          "path": "reframework/plugins/ArtianQoL.dll",
+          "size": 514048,
+          "sha256": "e6e50c4ff14121386e851551fcdbc4017fbe41fe05aa04cb8a4b1bdd87076d79"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/en.json",
+          "size": 1955,
+          "sha256": "b23e01b4a3018999b4ab04655c73c5a4124bb57bbba91b8432a0abe41e2fb832"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/ru.json",
+          "size": 3142,
+          "sha256": "1a8894ba959010d5c98cc1bbfda57fd3bfc6370ca7720005b697d09543cd355e"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/zh-CN.json",
+          "size": 1932,
+          "sha256": "beca5a5b5ff26b2764afbe4baa3bb40192e5ebf332bfaeb37ee2267233d509fa"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/zh-TW.json",
+          "size": 1980,
+          "sha256": "682ef94f664e0a1b3916f3dcd41bf517592658aeacdd6a02e7020147703307d7"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/ja.json",
+          "size": 2602,
+          "sha256": "9d86e2cd1ef01774b72de82b57fcbac154ee84197b89ad9083114de419ff125f"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/ko.json",
+          "size": 2423,
+          "sha256": "b9fcd582b2a5afdd69fd28932d956f0cf7b79e75a905abe761f771a1497fd130"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/fr.json",
+          "size": 2310,
+          "sha256": "f8f4d1de83a14c659f76912dd39d60a476b8c02ebf886d73bf8dd809d4e307f4"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/es.json",
+          "size": 2280,
+          "sha256": "7c8cc8f71c800dfadcc1c57bae60afa139e7767a12e0be60e8b119203e02372a"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/de.json",
+          "size": 2357,
+          "sha256": "13fc6c2fc937f4e286a448bccd972ec03fa587cc7a41e6ffbc69e07c9567a5d6"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/pt-BR.json",
+          "size": 2302,
+          "sha256": "00e2f7083749283da5e3e700e60f3994b2f88588e38f404793af790f69310210"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/es-LA.json",
+          "size": 2278,
+          "sha256": "1329b13f51dd35cc87c83db175670be462a2b5adca7219d2aac7d41da57ec17a"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/th.json",
+          "size": 3844,
+          "sha256": "28b72c4b60f7bd5aea7e10954ec53c81f6bbd362d9307ed1a7d95d6103cd2e53"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/it.json",
+          "size": 2270,
+          "sha256": "05dbcdeb70f045662e09ecbed99785cf653797211ba8c1f11364349662a58e1c"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/pl.json",
+          "size": 2300,
+          "sha256": "4d3fc3bf716625dcc425bbd31077bf32edef9b0c0ab173e000143927fcf63bb3"
+        },
+        {
+          "path": "reframework/data/ArtianQoL/localization/tr.json",
+          "size": 2280,
+          "sha256": "c0082494490c12604c8215bc97560e2b370f6c0e389247ce72c6d29dae6f0785"
+        }
+      ],
+      "seededMutableFiles": [],
+      "replacesPackageIds": [],
+      "mutablePaths": [
+        "reframework/data/ArtianQoL/config.json"
+      ],
+      "provenance": {
+        "source": "mh-wilds-reframework-mods/mods/artian-reroll/releases/accepted/2.3.2/BUILD_MANIFEST.json",
+        "commit": "72fe14af9f12f77851a31de3cdb9dff81a1bd9ab"
+      }
+    },
+    {
+      "packageId": "decoration-qol",
+      "name": "Decoration QoL",
+      "version": "1.2.1",
+      "upstreamVersion": "1.2.1",
+      "channel": "stable",
+      "artifact": {
+        "fileName": "DecorationQoL-1.42.0.2-1.2.1.zip",
+        "size": 66774,
+        "sha256": "e53582e21875d72f1101c5c2be85c9c8559efb878755bf648f4824106342707d",
+        "members": [
+          {
+            "path": "DecorationQoL_README.md",
+            "size": 6973,
+            "sha256": "deb6ca4cdf0a819710791a84f38b17294ee53c171ce6863a29fb9d724264aec0"
+          },
+          {
+            "path": "modinfo.ini",
+            "size": 130,
+            "sha256": "6345c4923c3c2fca2220f43e0b8e0f65838fde978c85dde16945d9c7cfcce062"
+          },
+          {
+            "path": "natives/STM/GameDesign/Common/FacilityMenu/MacaAlchemy.user.3",
+            "size": 452,
+            "sha256": "c843b2b01bc40f6411ea9c73bb90d4eb32ff3bb9865287bdfab6d1438d46e358"
+          },
+          {
+            "path": "natives/STM/GameDesign/Common/Menu/MenuSetting.user.3",
+            "size": 36832,
+            "sha256": "6cf875d97464220f1b5fdb10cc6ac0619f134fc852dd11677896329738195649"
+          },
+          {
+            "path": "natives/STM/GameDesign/Facility/MakaAccessoryData.user.3",
+            "size": 9764,
+            "sha256": "00e8bcb4bb76f5a03d736a185fad3de61648e1bcd5373dc7d2859a9464c60644"
+          },
+          {
+            "path": "natives/STM/GameDesign/Mission/_UserData/StoryFlagPackingData.user.3",
+            "size": 90544,
+            "sha256": "bece782a0c14af980b8b9a3314f6243de5d4c992e1ffa6634bd7fea629342b8d"
+          },
+          {
+            "path": "reframework/autorun/DecorationBetterRNG.lua",
+            "size": 76158,
+            "sha256": "019d60316c912aacff74dd859275df719527776973558172f1bc5fcc0ce050a6"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/config.json",
+            "size": 1010,
+            "sha256": "e977d537e4f2e61940e77ca0c5e8c6e6ccc4dd58f15b624f8ea2ac8db31841e2"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/de.json",
+            "size": 1789,
+            "sha256": "ce617b77eb4644a301c786d3b433ad4ddd35f9b150df5a10e9efc6e562e0b5f8"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/en.json",
+            "size": 1547,
+            "sha256": "851125b1708b9182327dfe4995730fc83ebae819fa2acc0ea13860604e563209"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/es-LA.json",
+            "size": 1761,
+            "sha256": "25ffdb5d26ca3caa243ea2903b5dae6c7bd28b193742f1dcb84946729d07a16d"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/es.json",
+            "size": 1760,
+            "sha256": "99c9ff0f6158690f7de16ed62d0cb42fc8a15e81fdeeb60a3273d57333ab670e"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/fr.json",
+            "size": 1864,
+            "sha256": "7629bb405b201d3e6815fb8931a5f7bc3452415708eb728bbf36efeadc5fa992"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/it.json",
+            "size": 1778,
+            "sha256": "5d36a07a9f1d4e4ccfc66e45119eb3e81e19ff46373ba4fb8ae867ab77efda3f"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/ja.json",
+            "size": 2059,
+            "sha256": "9ba7382125381f17da879d5bd9a8e645b9cd1f35611b3e3bca9221d8e0391fa2"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/ko.json",
+            "size": 1918,
+            "sha256": "22503098dcc1189c7ad1e862ff656966ab7b82493b78b58eea25ebdafa4279c1"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/pl.json",
+            "size": 1695,
+            "sha256": "b0b08cb30cf819c0435404f6ef72d76106a66aa0b072771845526d529b2e6c10"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/pt-BR.json",
+            "size": 1716,
+            "sha256": "6fec078299f61027904cc61a46c711d9636a6b5707c4b3c096e72cd011739273"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/ru.json",
+            "size": 2314,
+            "sha256": "10a1ecc6474ca4f75786aec3152f20ba231dc41d11027a28045f8be4a295ab39"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/th.json",
+            "size": 2785,
+            "sha256": "93265a42a2255068e90a93ca511ebb5ff13d6f074fee0ea9d0a2b7c1d82424c0"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/tr.json",
+            "size": 1675,
+            "sha256": "552c892362c925c73c98dcd87335a8e40490a1f7f1a5ef20274a216d77b3e240"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/zh-CN.json",
+            "size": 1593,
+            "sha256": "c917cd5fe24a4c6f4d72fbaf7bc15fc419efada461f2bac83935226ae4218181"
+          },
+          {
+            "path": "reframework/data/DecorationBetterRNG/localization/zh-TW.json",
+            "size": 1617,
+            "sha256": "339e4367f5a79e4542ff62276437bc9ba6e863a752a7bda205adbe3310827245"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "provider": "https",
+          "locator": {
+            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/decoration-qol-v1.2.1/DecorationQoL-1.42.0.2-1.2.1.zip"
+          }
+        },
+        {
+          "provider": "nexus-v1",
+          "gameDomain": "monsterhunterwilds",
+          "modId": 4954,
+          "locator": {
+            "kind": "artifact-file-name"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "packageId": "reframework",
+          "versionConstraint": "=1.5.9-1+nightly.1398.88ece6b",
+          "channel": "stable"
+        }
+      ],
+      "suggestedPackageIds": [],
+      "compatibility": {
+        "gameBuild": "1.42.0.2",
+        "steamBuild": "24705561",
+        "executableSha256": "aa38eb46ae1f3c6c94fb2dd94af59b4665bd4c8ccee56bc36b88cf82397a5b4a",
+        "evidence": "Producer acceptance 1.2.1 (loader on/off QA, 2026-10-03): six melding lists, prices applied, startup resource check; orb odds and submenu inherited from 1.2.0 RU/IT QA."
+      },
+      "files": [
+        {
+          "path": "natives/STM/GameDesign/Common/FacilityMenu/MacaAlchemy.user.3",
+          "size": 452,
+          "sha256": "c843b2b01bc40f6411ea9c73bb90d4eb32ff3bb9865287bdfab6d1438d46e358"
+        },
+        {
+          "path": "natives/STM/GameDesign/Common/Menu/MenuSetting.user.3",
+          "size": 36832,
+          "sha256": "6cf875d97464220f1b5fdb10cc6ac0619f134fc852dd11677896329738195649"
+        },
+        {
+          "path": "natives/STM/GameDesign/Facility/MakaAccessoryData.user.3",
+          "size": 9764,
+          "sha256": "00e8bcb4bb76f5a03d736a185fad3de61648e1bcd5373dc7d2859a9464c60644"
+        },
+        {
+          "path": "natives/STM/GameDesign/Mission/_UserData/StoryFlagPackingData.user.3",
+          "size": 90544,
+          "sha256": "bece782a0c14af980b8b9a3314f6243de5d4c992e1ffa6634bd7fea629342b8d"
+        },
+        {
+          "path": "reframework/autorun/DecorationBetterRNG.lua",
+          "size": 76158,
+          "sha256": "019d60316c912aacff74dd859275df719527776973558172f1bc5fcc0ce050a6"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/de.json",
+          "size": 1789,
+          "sha256": "ce617b77eb4644a301c786d3b433ad4ddd35f9b150df5a10e9efc6e562e0b5f8"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/en.json",
+          "size": 1547,
+          "sha256": "851125b1708b9182327dfe4995730fc83ebae819fa2acc0ea13860604e563209"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/es-LA.json",
+          "size": 1761,
+          "sha256": "25ffdb5d26ca3caa243ea2903b5dae6c7bd28b193742f1dcb84946729d07a16d"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/es.json",
+          "size": 1760,
+          "sha256": "99c9ff0f6158690f7de16ed62d0cb42fc8a15e81fdeeb60a3273d57333ab670e"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/fr.json",
+          "size": 1864,
+          "sha256": "7629bb405b201d3e6815fb8931a5f7bc3452415708eb728bbf36efeadc5fa992"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/it.json",
+          "size": 1778,
+          "sha256": "5d36a07a9f1d4e4ccfc66e45119eb3e81e19ff46373ba4fb8ae867ab77efda3f"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/ja.json",
+          "size": 2059,
+          "sha256": "9ba7382125381f17da879d5bd9a8e645b9cd1f35611b3e3bca9221d8e0391fa2"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/ko.json",
+          "size": 1918,
+          "sha256": "22503098dcc1189c7ad1e862ff656966ab7b82493b78b58eea25ebdafa4279c1"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/pl.json",
+          "size": 1695,
+          "sha256": "b0b08cb30cf819c0435404f6ef72d76106a66aa0b072771845526d529b2e6c10"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/pt-BR.json",
+          "size": 1716,
+          "sha256": "6fec078299f61027904cc61a46c711d9636a6b5707c4b3c096e72cd011739273"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/ru.json",
+          "size": 2314,
+          "sha256": "10a1ecc6474ca4f75786aec3152f20ba231dc41d11027a28045f8be4a295ab39"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/th.json",
+          "size": 2785,
+          "sha256": "93265a42a2255068e90a93ca511ebb5ff13d6f074fee0ea9d0a2b7c1d82424c0"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/tr.json",
+          "size": 1675,
+          "sha256": "552c892362c925c73c98dcd87335a8e40490a1f7f1a5ef20274a216d77b3e240"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/zh-CN.json",
+          "size": 1593,
+          "sha256": "c917cd5fe24a4c6f4d72fbaf7bc15fc419efada461f2bac83935226ae4218181"
+        },
+        {
+          "path": "reframework/data/DecorationBetterRNG/localization/zh-TW.json",
+          "size": 1617,
+          "sha256": "339e4367f5a79e4542ff62276437bc9ba6e863a752a7bda205adbe3310827245"
+        }
+      ],
+      "seededMutableFiles": [
+        {
+          "path": "reframework/data/DecorationBetterRNG/config.json",
+          "size": 1010,
+          "sha256": "e977d537e4f2e61940e77ca0c5e8c6e6ccc4dd58f15b624f8ea2ac8db31841e2"
+        }
+      ],
+      "replacesPackageIds": [
+        "decoration-better-rng"
+      ],
+      "mutablePaths": [
+        "reframework/data/DecorationBetterRNG/prices.json"
+      ],
+      "provenance": {
+        "source": "mh-wilds-reframework-mods/mods/decoration-better-rng/releases/accepted/1.2.1/BUILD_MANIFEST.json",
+        "commit": "72fe14af9f12f77851a31de3cdb9dff81a1bd9ab"
+      }
+    },
+    {
+      "packageId": "rng-charm-crafting",
+      "name": "RNG Charm Crafting",
+      "version": "2.0.3",
+      "upstreamVersion": "2.0.3",
+      "channel": "stable",
+      "artifact": {
+        "fileName": "RNGCharmCrafting-1.42.0.2-2.0.3.zip",
+        "size": 351719,
+        "sha256": "ce4983691e376c530df860b10c9740cb7dffe9e5d95a7bc7d0333375d7051879",
+        "members": [
+          {
+            "path": "RNGCharmCrafting_README.md",
+            "size": 27491,
+            "sha256": "2c2c55c44c06ee1896e034fb76c56a226a7d0132e34af38c205f32ed8f6a4d14"
+          },
+          {
+            "path": "modinfo.ini",
+            "size": 257,
+            "sha256": "54e6f67b8a19e6d71c34ffdd5a8ef645863e2fcbe62229567379cb004bab92a7"
+          },
+          {
+            "path": "natives/STM/GUI/ui000000/ui000000/ui000007.gui.850041",
+            "size": 46972,
+            "sha256": "b4a822c47cfa0c37dffb99a24be233398a02d1b62d37386c99e53922ed587ff0"
+          },
+          {
+            "path": "natives/STM/GUI/ui080000/ui080000/ui080000.gui.850041",
+            "size": 2310071,
+            "sha256": "8c805abeab685afbd21e065551e6727fca7c87127f1c4399818144a9ab17a810"
+          },
+          {
+            "path": "natives/STM/GameDesign/Common/Equip/MakaAmuletExchangeTable.user.3",
+            "size": 292,
+            "sha256": "c71c0f18d5c7c8f56ffb676d23cc916987e61ee9197fe54d2505f051819967fe"
+          },
+          {
+            "path": "natives/STM/GameDesign/Facility/MakaData.user.3",
+            "size": 668,
+            "sha256": "bca2968216c3325341aaeb0d4b3ee7e3061cc222e085c3e4286cd1ebf3037b9b"
+          },
+          {
+            "path": "reframework/autorun/TalismanQuality.lua",
+            "size": 396987,
+            "sha256": "6b8665dc91c6242391996025475beb5a1b71f63f0d5ef93d37005c563bdd83c9"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/de.json",
+            "size": 8157,
+            "sha256": "f596fa106ed80beb93904f4bbd2637a667048aeb56d325bd78eb0c445c668236"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/en.json",
+            "size": 7134,
+            "sha256": "0e71d69ad7e852293c057df27bb8c711d9454f91bc20dfb46898d412dc298a92"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/es-LA.json",
+            "size": 8409,
+            "sha256": "c34072cf3ccc597d6e2072f3dba46b2dbe762a31bbf330d54f0c219bca982571"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/es.json",
+            "size": 8381,
+            "sha256": "66791b9ee5b44da5fcc1e1ea377f46d9fb5675e5b0f64920f1b1c1b1a614bb51"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/fr.json",
+            "size": 8609,
+            "sha256": "e675cef63a92abee2a61b8b6bb9cdf79c3ebb1041d5a8079fec9805855b2ce18"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/it.json",
+            "size": 8069,
+            "sha256": "46d5f7c55e21935b6bad40d500651649ac5ebfb22015a90b924e76660443883c"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/ja.json",
+            "size": 9454,
+            "sha256": "8d23dd7d193cbf64b2adbe615bd37d70013a32e6781f8f0f354bc3973f9d9c48"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/ko.json",
+            "size": 8822,
+            "sha256": "d8a0d6dcf1b7a24d8c0bb7fe9ad02bb1712a22144c5a247e4d8309271e6af489"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/pl.json",
+            "size": 8194,
+            "sha256": "86aa627739a5d78e53095d300f65804f4663eaac7a75d715da8ab8ad31c2fd44"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/pt-BR.json",
+            "size": 8126,
+            "sha256": "6428fb2938d1061ba482e0a2fcf26a3a7a2a04209a5abfcbf4384865da6ebee4"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/ru.json",
+            "size": 11024,
+            "sha256": "0a708d8401aba4e1a6ea946a1f4336b62c9275d94deab8796e25b7c28bc226ce"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/th.json",
+            "size": 13258,
+            "sha256": "d28f0793cceee9786cd1cbe68530dabfe045f0cbb93851bad1e28919bb8c361d"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/tr.json",
+            "size": 7880,
+            "sha256": "511537db0fe0e426ecd4882530964db761f6064f443be98816f133254b7c85dc"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/zh-CN.json",
+            "size": 7211,
+            "sha256": "45838dcd6ea182749914b2108633d336feaacff6b196054b95fa81a9c3eb6e40"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/localization/zh-TW.json",
+            "size": 7313,
+            "sha256": "a46eafaf7c364e452aa1425c2a9a60262162d02e919bf41dab41fcbb100d066e"
+          },
+          {
+            "path": "reframework/data/TalismanCrafting/quest-drops.json",
+            "size": 395,
+            "sha256": "e68c3310a2b3bf55ef04a491a580943c7d1bc0755bb8e05609eb183849c50398"
+          },
+          {
+            "path": "reframework/data/TalismanQuality/config.json",
+            "size": 6955,
+            "sha256": "ef99d2c5709f90d3cb0fd2bbef5a9f6695d07bb559e1374919dede9ce3982442"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "provider": "https",
+          "locator": {
+            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/rng-charm-crafting-v2.0.3/RNGCharmCrafting-1.42.0.2-2.0.3.zip"
+          }
+        },
+        {
+          "provider": "nexus-v1",
+          "gameDomain": "monsterhunterwilds",
+          "modId": 4900,
+          "locator": {
+            "kind": "artifact-file-name"
+          }
+        }
+      ],
+      "dependencies": [
+        {
+          "packageId": "reframework",
+          "versionConstraint": "=1.5.9-1+nightly.1398.88ece6b",
+          "channel": "stable"
+        }
+      ],
+      "suggestedPackageIds": [],
+      "compatibility": {
+        "gameBuild": "1.42.0.2",
+        "steamBuild": "24705561",
+        "executableSha256": "aa38eb46ae1f3c6c94fb2dd94af59b4665bd4c8ccee56bc36b88cf82397a5b4a",
+        "evidence": "Producer acceptance 2.0.3 (two-save-slot QA, 2026-10-05): Gold craft on a non-first slot, ordinary melding, no cross-character bonus; natives diagnosis from 2.0.2 QA retained."
+      },
+      "files": [
+        {
+          "path": "natives/STM/GUI/ui000000/ui000000/ui000007.gui.850041",
+          "size": 46972,
+          "sha256": "b4a822c47cfa0c37dffb99a24be233398a02d1b62d37386c99e53922ed587ff0"
+        },
+        {
+          "path": "natives/STM/GUI/ui080000/ui080000/ui080000.gui.850041",
+          "size": 2310071,
+          "sha256": "8c805abeab685afbd21e065551e6727fca7c87127f1c4399818144a9ab17a810"
+        },
+        {
+          "path": "natives/STM/GameDesign/Common/Equip/MakaAmuletExchangeTable.user.3",
+          "size": 292,
+          "sha256": "c71c0f18d5c7c8f56ffb676d23cc916987e61ee9197fe54d2505f051819967fe"
+        },
+        {
+          "path": "natives/STM/GameDesign/Facility/MakaData.user.3",
+          "size": 668,
+          "sha256": "bca2968216c3325341aaeb0d4b3ee7e3061cc222e085c3e4286cd1ebf3037b9b"
+        },
+        {
+          "path": "reframework/autorun/TalismanQuality.lua",
+          "size": 396987,
+          "sha256": "6b8665dc91c6242391996025475beb5a1b71f63f0d5ef93d37005c563bdd83c9"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/de.json",
+          "size": 8157,
+          "sha256": "f596fa106ed80beb93904f4bbd2637a667048aeb56d325bd78eb0c445c668236"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/en.json",
+          "size": 7134,
+          "sha256": "0e71d69ad7e852293c057df27bb8c711d9454f91bc20dfb46898d412dc298a92"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/es-LA.json",
+          "size": 8409,
+          "sha256": "c34072cf3ccc597d6e2072f3dba46b2dbe762a31bbf330d54f0c219bca982571"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/es.json",
+          "size": 8381,
+          "sha256": "66791b9ee5b44da5fcc1e1ea377f46d9fb5675e5b0f64920f1b1c1b1a614bb51"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/fr.json",
+          "size": 8609,
+          "sha256": "e675cef63a92abee2a61b8b6bb9cdf79c3ebb1041d5a8079fec9805855b2ce18"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/it.json",
+          "size": 8069,
+          "sha256": "46d5f7c55e21935b6bad40d500651649ac5ebfb22015a90b924e76660443883c"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/ja.json",
+          "size": 9454,
+          "sha256": "8d23dd7d193cbf64b2adbe615bd37d70013a32e6781f8f0f354bc3973f9d9c48"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/ko.json",
+          "size": 8822,
+          "sha256": "d8a0d6dcf1b7a24d8c0bb7fe9ad02bb1712a22144c5a247e4d8309271e6af489"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/pl.json",
+          "size": 8194,
+          "sha256": "86aa627739a5d78e53095d300f65804f4663eaac7a75d715da8ab8ad31c2fd44"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/pt-BR.json",
+          "size": 8126,
+          "sha256": "6428fb2938d1061ba482e0a2fcf26a3a7a2a04209a5abfcbf4384865da6ebee4"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/ru.json",
+          "size": 11024,
+          "sha256": "0a708d8401aba4e1a6ea946a1f4336b62c9275d94deab8796e25b7c28bc226ce"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/th.json",
+          "size": 13258,
+          "sha256": "d28f0793cceee9786cd1cbe68530dabfe045f0cbb93851bad1e28919bb8c361d"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/tr.json",
+          "size": 7880,
+          "sha256": "511537db0fe0e426ecd4882530964db761f6064f443be98816f133254b7c85dc"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/zh-CN.json",
+          "size": 7211,
+          "sha256": "45838dcd6ea182749914b2108633d336feaacff6b196054b95fa81a9c3eb6e40"
+        },
+        {
+          "path": "reframework/data/TalismanCrafting/localization/zh-TW.json",
+          "size": 7313,
+          "sha256": "a46eafaf7c364e452aa1425c2a9a60262162d02e919bf41dab41fcbb100d066e"
+        }
+      ],
+      "seededMutableFiles": [
+        {
+          "path": "reframework/data/TalismanCrafting/quest-drops.json",
+          "size": 395,
+          "sha256": "e68c3310a2b3bf55ef04a491a580943c7d1bc0755bb8e05609eb183849c50398"
+        },
+        {
+          "path": "reframework/data/TalismanQuality/config.json",
+          "size": 6955,
+          "sha256": "ef99d2c5709f90d3cb0fd2bbef5a9f6695d07bb559e1374919dede9ce3982442"
+        }
+      ],
+      "replacesPackageIds": [
+        "talisman-quality",
+        "talisman-crafting"
+      ],
+      "mutablePaths": [
+        "reframework/data/TalismanCrafting/special-bonuses-slot-0-a.json",
+        "reframework/data/TalismanCrafting/special-bonuses-slot-0-b.json",
+        "reframework/data/TalismanCrafting/special-bonuses-slot-1-a.json",
+        "reframework/data/TalismanCrafting/special-bonuses-slot-1-b.json",
+        "reframework/data/TalismanCrafting/special-bonuses-slot-2-a.json",
+        "reframework/data/TalismanCrafting/special-bonuses-slot-2-b.json"
+      ],
+      "provenance": {
+        "source": "mh-wilds-reframework-mods/mods/talisman-crafting/releases/accepted/2.0.3/BUILD_MANIFEST.json",
+        "commit": "72fe14af9f12f77851a31de3cdb9dff81a1bd9ab"
+      }
+    }
+  ]
+}

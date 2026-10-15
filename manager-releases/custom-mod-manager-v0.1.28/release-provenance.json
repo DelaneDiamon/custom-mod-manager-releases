@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "managerVersion": "0.1.28",
+  "sourceRepository": "maydie13/Custom-Mod-Manager (private)",
+  "sourceTag": "v0.1.28",
+  "sourceCommit": "097b7a7e9ad69cc13f2f5be2d13b48e7752bdd7e",
+  "assets": {
+    "Custom-Mod-Manager-0.1.28-windows-x64-setup.exe": {
+      "size": 31247674,
+      "sha256": "5f8044c2cf879f2640e882a238e8d27551916d277b3a29021f79d8f1cdec1c44"
+    },
+    "Custom-Mod-Manager-0.1.28-windows-x64-setup.exe.sig": {
+      "size": 464,
+      "sha256": "2b3fa1d1cd36472b947c9fc1a78d2a35a0333d960e94c4ad041acf9a1626cb66"
+    },
+    "latest.json": {
+      "size": 724,
+      "sha256": "4567c1b2a1fb8339a7bcacaf7187a40518f6b8112b33d2c8e47762b98de45b4b"
+    },
+    "SHA256SUMS-windows-x64.txt": {
+      "size": 310,
+      "sha256": "a4ea373cc10975dce938150c77dd6e84d2458168728f2b62c4ae6df2bc5a4451"
+    }
+  }
+}

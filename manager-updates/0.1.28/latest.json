@@ -1,0 +1,9 @@
+{
+  "version": "0.1.28",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/custom-mod-manager-v0.1.28/Custom-Mod-Manager-0.1.28-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnVSMExLNWJWZWR1NFh5U1o4WWJxenFOaG84bWJldG9JSVJUbkMvc2wwWE1DZDBVVTVlZlJaWVNRaWZGWWlubjdSczF0dysrYU8waWEzdlVZaHNkMjdwZGlxRFRONHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDg2MjQ5CWZpbGU6Q3VzdG9tLU1vZC1NYW5hZ2VyLTAuMS4yOC13aW5kb3dzLXg2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMjgKODEvbnNjMkdPbm1xeEU5N2FzSlVpdDdvTFhpTmFUTlpTTGxJSytZb1Qya1lhU2JRbnV6RG5Td3RqVEhXWjNyeW1PNUtSV3FHSzF5KzhkTkpWMU5OREE9PQo="
+    }
+  }
+}

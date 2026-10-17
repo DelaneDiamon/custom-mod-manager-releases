@@ -1,8 +1,11 @@
-# Monster Hunter Wilds mods — public releases
+# Custom Mod Manager — releases
 
-Release downloads and the Custom Mod Manager catalog for the REFramework mods by maydie13.
-The source is developed privately; every release here is the exact archive that passed in-game
-QA, copied byte-for-byte, with its checksums and a provenance file.
+Windows releases of Custom Mod Manager (tags `custom-mod-manager-v<version>`) and the catalog of
+its built-in mod source.
+
+The built-in source lists the REFramework mods by maydie13, hosted here with the author's
+permission. Each mod release is the exact archive that passed in-game QA, copied byte-for-byte
+from the author's release, with its checksums and a provenance file.
 
 | Mod | Nexus page | What it does |
 | --- | --- | --- |

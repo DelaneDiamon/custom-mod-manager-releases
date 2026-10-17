@@ -187,7 +187,7 @@
         {
           "provider": "https",
           "locator": {
-            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/artian-qol-v2.3.2/ArtianQoL-1.42.0.2-2.3.2.zip"
+            "url": "https://github.com/DelaneDiamon/custom-mod-manager-releases/releases/download/artian-qol-v2.3.2/ArtianQoL-1.42.0.2-2.3.2.zip"
           }
         },
         {
@@ -442,7 +442,7 @@
         {
           "provider": "https",
           "locator": {
-            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/decoration-qol-v1.2.1/DecorationQoL-1.42.0.2-1.2.1.zip"
+            "url": "https://github.com/DelaneDiamon/custom-mod-manager-releases/releases/download/decoration-qol-v1.2.1/DecorationQoL-1.42.0.2-1.2.1.zip"
           }
         },
         {
@@ -725,7 +725,7 @@
         {
           "provider": "https",
           "locator": {
-            "url": "https://github.com/maydie13/mh_wilds_mods_releases/releases/download/rng-charm-crafting-v2.0.3/RNGCharmCrafting-1.42.0.2-2.0.3.zip"
+            "url": "https://github.com/DelaneDiamon/custom-mod-manager-releases/releases/download/rng-charm-crafting-v2.0.3/RNGCharmCrafting-1.42.0.2-2.0.3.zip"
           }
         },
         {

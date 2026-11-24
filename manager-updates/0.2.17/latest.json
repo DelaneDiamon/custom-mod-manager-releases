@@ -1,0 +1,9 @@
+{
+  "version": "0.2.17",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/DelaneDiamon/custom-mod-manager-releases/releases/download/custom-mod-manager-v0.2.17/Custom-Mod-Manager-0.2.17-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnVSMExLNWJWZWRMZG5vcmlRK3cwZUVWY1NmenBGRGM1UFdhbXdMRWlZSmV4bjBNeDB1UDBpd0tONEhXZUZzSUlCbGU1bk1kYm5rVUc3YzhBdWRyRGpROFNDV2NoSWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTYwNDU1CWZpbGU6Q3VzdG9tLU1vZC1NYW5hZ2VyLTAuMi4xNy13aW5kb3dzLXg2NC1zZXR1cC5leGUJdmVyc2lvbjowLjIuMTcKZWt1TGNMTzllcnRGNFVmV2FsZWJGZSsyUHVjSkdKQXFwRHI4Q2dFTSswbkR2ZGpjcUJUR2hiV0pGWG5HY2hEcDZnbkFNTXA1NmpkYThhVlljeDFPQVE9PQo="
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "managerVersion": "0.2.24",
+  "sourceRepository": "DelaneDiamon/custom-mod-manager (private)",
+  "sourceTag": "v0.2.24",
+  "sourceCommit": "4c4a817f286e6efca3815416ed1f9ade4035f3ea",
+  "assets": {
+    "Custom-Mod-Manager-0.2.24-windows-x64-setup.exe": {
+      "size": 6303209,
+      "sha256": "ee0406199c5a2e8cf88577537aaa82b3d1445c19a3f43aa627ba5b954ce97433"
+    },
+    "Custom-Mod-Manager-0.2.24-windows-x64-setup.exe.sig": {
+      "size": 464,
+      "sha256": "e515eb24eaddb0354b822ca04d277e258b813f02ccc84d07b363723da521cc65"
+    },
+    "latest.json": {
+      "size": 733,
+      "sha256": "256924af134827741fb1178bca2af867368cdb6c5ecf77b17bf0fedf1d6e56f9"
+    },
+    "SHA256SUMS-windows-x64.txt": {
+      "size": 310,
+      "sha256": "978b953098beb4ad577bcea7a0022a86f3453116300954f71da7c02bb90be94f"
+    }
+  }
+}

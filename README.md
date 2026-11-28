@@ -1,6 +1,6 @@
-# Custom Mod Manager — releases
+# Satchel — releases
 
-Windows releases of Custom Mod Manager (tags `custom-mod-manager-v<version>`) and the catalog of
+Windows releases of Satchel, formerly Custom Mod Manager (tags `custom-mod-manager-v<version>`) and the catalog of
 its built-in mod source.
 
 The built-in source lists the REFramework mods by maydie13, hosted here with the author's
@@ -23,9 +23,9 @@ unpack `reframework/` (and `natives/` where present) into the game folder. Manua
 mods with a `natives/` folder need **Enable Loose File Loader** ticked in the REFramework menu.
 Check the download against `SHA256SUMS.txt`. Each archive contains its own README.
 
-## Custom Mod Manager
+## Satchel
 
-`cmm-repository.json` is the entry point for the Custom Mod Manager repository source; it points
+`cmm-repository.json` is the entry point for the Satchel repository source; it points
 to the current `v5/repository-catalog.json`. The catalog lists each release's archive size and
 SHA-256, so the manager verifies every download against the accepted bytes before installing.
 
